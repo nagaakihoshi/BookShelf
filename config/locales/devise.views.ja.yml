@@ -8,6 +8,18 @@ ja:
         password: "パスワード"
         password_confirmation: "確認用パスワード"
         remember_me: "ログインを記憶"
+      book:
+        title: "タイトル"
+        author: "著者"
+    errors:
+      models:
+        book:
+          attributes:
+            title:
+              blank: "タイトルは必ず入力してください"
+              too_long: "タイトルが長すぎます"
+            author:
+              too_long: "著者の文字数が大きすぎます"
     models:
       user: "ユーザ"
   devise:
